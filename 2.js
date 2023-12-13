@@ -416,7 +416,7 @@ let data = "javascript is the world's most popullar laguage in the world ";
     console.log ('skillQode - decode your skill'); 
 }; 
  
-skill(); 
+skill();
  
 (function(){ 
    let x = "Hello! i called myself"; 
