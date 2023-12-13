@@ -127,19 +127,19 @@
 
 // bind method
 
-let person = {
-    firstName: "Skill",
-    lastName: "Qode",
-    fullname: function (city) {
-      return this.firstName + " " + this.lastName + "\nCity name is: " + city;
-    },
-  };
+// let person = {
+//     firstName: "Skill",
+//     lastName: "Qode",
+//     fullname: function (city) {
+//       return this.firstName + " " + this.lastName + "\nCity name is: " + city;
+//     },
+//   };
   
-  let data = {
-    firstName: "Virat",
-    lastName: "Kohli",
-  };
+//   let data = {
+//     firstName: "Virat",
+//     lastName: "Kohli",
+//   };
   
-  console.log(person.fullname("Surat"));
-  let aa = person.fullname.bind(data, "Surat")();
-  console.log(aa);
+//   console.log(person.fullname("Surat"));
+//   let aa = person.fullname.bind(data,"Surat")();
+//   console.log(aa);
