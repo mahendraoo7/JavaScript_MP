@@ -199,10 +199,63 @@
 
   //     let numbers = [12,23,54,56,76,87];
   //     let sum = numbers.some(myFunction);
-  //     function myFunction(value) {
+  //     function myFunction(value) {v
   //     return value < 4;
   //     }
 
   //     console.log(sum);
   
+  //     FIND METHOD //
+
+        //  let data = [3,6,4,23,34,45,65,];
+        //  let data2 = data.find(the);    
+        
+        //   function the (z) {
+              
+        //     return z > 22;
+
+        //  }
+       
+        // console.log(data2);
+
+  //        FINDINDEX METHOD  //
+
+        // let data = [4, 9, 16, 25, 29];
+        // let number = data.findIndex(the);
+
+        // function the(x) {
+
+        //   return x > 27;
+
+        // }
+        // console.log(number);
+
+
+  //        ENTRIES METHOD      //
   
+  
+        // let pin = ['x','y','z'];
+        // let Post = pin.entries();
+        
+        // console.log(Post.next().value);  
+        // console.log(Post.next().value);
+
+
+  //         INCLUDES METHOD     //
+
+
+        // let Car = ["BMW","FARRARI","JEGUAR","SCORPIO","RUBICON "];
+
+        // console.log(Car.includes("BMW"));
+
+  //          copyWhithin METHOD     //
+  
+        // let mobile = ["apple","mi","redmi","realme","vivo","oppo","oneluse"];
+        // console.log(mobile.copyWithin(2, 0));
+
+        // let mobile = ["apple","mi","redmi","realme","vivo","oppo","oneluse"];
+        // console.log(mobile.copyWithin(2, 0,2));
+
+
+
+                     //     ARRAY COMPLETED      //

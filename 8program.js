@@ -3,7 +3,7 @@
    
 function reverse_a_number()
 {
-    let n = number(propmt("enter n"))
+    let n = number(propmt("enter n"));
 
         n = n + "";
 
