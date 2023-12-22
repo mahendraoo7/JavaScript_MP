@@ -12,7 +12,7 @@
 // JavaScript try...catch Statement
 
 {
-    // // The try...catch statement is used to handle the exceptions. 
+    // The try...catch statement is used to handle the exceptions. 
     // try {
     //     // body of try
     // } 
@@ -61,19 +61,19 @@
 // try...catch...finally Example
 
 {
-    // const numerator= 100, denominator = 20;
+    const numerator= 100, denominator = 20;
 
-    // try {
-    //     console.log(numerator/denominator);
-    //     console.log(a);
-    // }
-    // catch(error) {
-    //     console.log('An error caught'); 
-    //     console.log('Error message: ' + error);  
-    // }
-    // finally {
-    //     console.log('Finally will execute every time');
-    // }
+    try {
+        let a = numerator/denominator;
+
+    }
+    catch(error) {
+        console.log('An error caught'); 
+        console.log('Error message: ' + error);  
+    }
+    finally {
+        console.log('Finally will execute every time');
+    }
 
     // // You need to use catch or finally statement after try statement. Otherwise, the program will throw an error Uncaught SyntaxError: Missing catch or finally after try.
 }
@@ -106,22 +106,25 @@
 // try...catch...throw Example
 
 {
-    const number = 10;
-    try {
-        if(number > 50) {
-            console.log('Success');
-        }
-        else {
+    // const number = 10;
+    // try {
+    //     if(number < 50) {
+    //         console.log('Success');
+    //     }
+    //     else {
 
-            // user-defined throw statement
-             throw new Error('The number is low');
-        }
+    //         // user-defined throw statement
+    //          throw new Error('The number is low');
+    //     }
 
-        // if throw executes, the below code does not execute
-        console.log('hello');
-    }
-    catch(error) {
-        console.log('An error caught'); 
-        console.log('Error message: ' + error);  
-    }
+        
+
+    //     // if throw executes, the below code does not execute
+    //     console.log('hello');
+        
+    // }
+    // catch(error) {
+    //     console.log('An error caught'); 
+    //     console.log('Error message: ' + error);  
+    // }
 }
