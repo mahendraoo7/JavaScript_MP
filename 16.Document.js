@@ -43,7 +43,7 @@
     // const node2 = document.getElementById("id3");
     //     function textNode1() {
     //         alert(node1.innerHTML);
-    //     }
+    //     }                                                                                                                                                                            
     //     function textNode2() {
     //         alert(node2.innerHTML);
     //     }
