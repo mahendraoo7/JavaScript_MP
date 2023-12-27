@@ -11,8 +11,8 @@ function updateDigitalWatch() {
     document.getElementById('milliseconds').textContent = milliseconds;
 
 
-    // let timeString = hours + ':' + minutes + ':' + seconds ;
-   ` // document.getElementById('digital-watch').textContent = timeString;
+//     let timeString = hours + ':' + minutes + ':' + seconds ;
+//     document.getElementById('digital-watch').textContent = timeString;
   }
 
   setInterval(updateDigitalWatch, 1); 

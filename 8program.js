@@ -1,17 +1,17 @@
    //1. REVERSE A NUMBER 
    
    
-function reverse_a_number()
-{
-    let n = number(propmt("enter n"));
+// function reverse_a_number()
+// {
+//     let n = number(propmt("enter n"));
 
-        n = n + "";
+//         n = n + "";
 
    
-    return n.split("").reverse().join("");
-}
+//     return n.split("").reverse().join("");
+// }
 
-console.log(Number(reverse_a_number()));
+// console.log(Number(reverse_a_number()));
 
    
    
