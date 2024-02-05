@@ -3,24 +3,20 @@
   <head>
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Budget App</title>
-    <!-- Font Awesome Icons -->
     <link
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"
     />
-    <!-- Google Fonts -->
     <link
       href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500&display=swap"
       rel="stylesheet"
     />
-    <!-- Stylesheet -->
     <link rel="stylesheet" href="Badget_app.css" />
   </head>
   <body>
     <div class="wrapper">
       <div class="container">
         <div class="sub-container">
-          <!-- Budget -->
           <div class="total-amount-container">
             <h3>Budget</h3>
             <p class="hide error" id="budget-error">
@@ -34,7 +30,6 @@
             <button class="submit" id="total-amount-button">Set Budget</button>
           </div>
 
-          <!-- Expenditure -->
           <div class="user-amount-container">
             <h3>Expenses</h3>
             <p class="hide error" id="product-title-error">
@@ -54,7 +49,6 @@
             <button class="submit" id="check-amount">Check Amount</button>
           </div>
         </div>
-        <!-- Output -->
         <div class="output-container flex-space">
           <div>
             <p>Total Budget</p>
@@ -70,13 +64,11 @@
           </div>
         </div>
       </div>
-      <!-- List -->
       <div class="list">
         <h3>Expense List</h3>
         <div class="list-container" id="list"></div>
       </div>
     </div>
-    <!-- Script -->
     <script src="Badget_App.js"></script>
   </body>
 </html>

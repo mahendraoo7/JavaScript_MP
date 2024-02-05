@@ -61,3 +61,8 @@
 
 // console.log(a):
 // var a;
+
+let x=5;
+let y=10;
+
+alert("Hello My Brother You Are Under Age ");
